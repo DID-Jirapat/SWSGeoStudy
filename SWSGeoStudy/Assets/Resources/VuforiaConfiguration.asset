@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Name: VuforiaConfiguration
   m_EditorClassIdentifier: 
   vuforia:
-    vuforiaLicenseKey: Acsx8qP/////AAAACOdhBMsCuUojoB/EGyE1LSI5/sf3GP3T15Qe390aR4MwFlEeTdXQjuKQtwHYVKVbBRXM8OvV9HcX9ZGUcBslIHcNbEILvuDYcXgGJFUP0MvNJYQkmusmheO0q55yApS1NxHOsTQpQGiMxODh2/hM0QdpCZbivqh98nEWVcW/VWCc4QNSYsEzFASl2otl2bjRpnR/okQcUECpJGHZulPOEmk4szWY3Vz8EAQV3Tm7+nTIhhdPIKXsJTPBqhvMwpgFRkcPuceoDqhsBszUlOS2XHJsKtne2V3IW8IFA5RxJI8kHMZZBA369lQq8PFZewDapVEaX82v0Tf9fmlJJ4fGWNMLrTJJB3iePzPDSKnIb5fF
-    ufoLicenseKey: QWRlc0pKUC8vLy8vQUFBQUtLbE5QTklaUlVzaHB2V0VCZ0dscCtxR2lPSkVubWxoSU1uZWxiSGpMcllDQWs5Rmd5SVZKcnFMZVNCTjd4VFhDT0Z2QmFvRUdnVTkwd3d0QXdRck5iRURjNEV2MzRTVVZmNnR1S2paSG5xV2wzVUczL01SQVhpOUpySENPOTlibEdobjNwdDc2eFFrRllVWHVPRG52RUlwTnVjcy9LSVJxUW4rRkNYbDVKUDdVa0JlMW1DVzdSb1l6OUtYYkl5akYvRnMwMHRRc2VXTTVOVnp0UWdIL25EVzNxQnpLQWZhaTlzUlVxNEg1MkYxMlpGZWJSNWdxL3ltRkxQU0N4MHdsd29qS05TZUhZL1drUll1aUxRdUh5ZytGbjRZcmgvOGYwcVpNak5VRFRWNGxnWEhjWUNXQkJnKzJNYzIxVThzaVBLZXNwamVYckMwODlGRENKYzZ5RjE0VjFia3VNOEhyS2htc3ljcDdzZjI=
+    vuforiaLicenseKey: 
+    ufoLicenseKey: QVIveEpJai8vLy8vQUFBQUtNSXFTK05iVzBNcGpGQkUzaUl2TjMxQ0dEUlllbFRVdlZiV1lNRzZPbi9pVHpHY0JBVkJiRUl6Z2huTXdROG9TbWltSG9pWHY4WGg0d2UwdndkbHpUbEJBUXFqNEZiR015alFTeXZKS2Q3ZnlVWDdLY2FTcnZEbGdIYmJ6bWRGa29pdXVZRTJkZnJUbzY3WXBORTV6K0t4MVhDQ3h4MVNYL3NFSmJmQk4yK0FNU0dRWlRPN1lyTUt6TW5Rb3RUUkMyM3YybnRvZCsrdXUzMWExMkFiMG0yY29DeWRNOFZuLzd6WnFCVGZUeGxyWGsrejFtRTc0ZUdjVnA2QW8vNmdOLzBtWndpRVE3OCttMnV3aWwzV3Mza2pVcFNIWEdVclB2U016Nm9tNitZZzlaRnNFRncvRS9MVzUvU05scG5WZ1BTelRkc0NXS21lZmhHOWZscTdXK2V2R1lnNkRlM0hIWW5pMHlkaURtQXI=
     delayedInitialization: 0
     cameraDeviceModeSetting: -1
     maxSimultaneousImageTargets: 1
@@ -49,7 +49,7 @@ MonoBehaviour:
     numDivisions: 2
     videoBackgroundShader: {fileID: 4800000, guid: f40623b353e2f1943b1b3ba42975db7a,
       type: 3}
-    matteShader: {fileID: 15310, guid: 0000000000000000f000000000000000, type: 0}
+    matteShader: {fileID: 4800000, guid: 66d0d78a3000021448b598bb54a3bfdf, type: 3}
     videoBackgroundEnabled: 1
   deviceTracker:
     autoInitTracker: 0
@@ -64,7 +64,7 @@ MonoBehaviour:
     autoInitTracker: 0
     autoStartTracker: 0
   webcam:
-    deviceNameSetInEditor: FaceCam 3000
+    deviceNameSetInEditor: 
     flipHorizontally: 0
     turnOffWebCam: 0
     renderTextureLayer: 30

@@ -6,30 +6,89 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Core.unity
+    path: Assets/Scenes/Main.unity
+    guid: 7467518d5aef4934bb563eeb95282edc
+  - enabled: 1
+    path: "Assets/Scenes/01 \u0E40\u0E17\u0E37\u0E2D\u0E01\u0E40\u0E02\u0E32\u0E41\u0E2D\u0E19\u0E14\u0E34\u0E2A.unity"
+    guid: 49d51555927f94d4fa50de15966f0fc9
+  - enabled: 1
+    path: "Assets/Scenes/02 \u0E10\u0E32\u0E19\u0E2B\u0E34\u0E19\u0E40\u0E01\u0E48\u0E32\u0E04\u0E30\u0E40\u0E19\u0E40\u0E14\u0E35\u0E22\u0E19.unity"
+    guid: 8580f2efa06d427419d4651ae2a40ba5
+  - enabled: 1
+    path: "Assets/Scenes/03 \u0E25\u0E38\u0E48\u0E21\u0E19\u0E49\u0E33\u0E21\u0E34\u0E0B\u0E0B\u0E34\u0E2A\u0E0B\u0E34\u0E2A\u0E1B\u0E35\u0E49
+      - \u0E21\u0E34\u0E2A\u0E0B\u0E39\u0E23\u0E35\u0E48.unity"
+    guid: fbbdfe15277c6ed46858af181d47b032
+  - enabled: 1
+    path: "Assets/Scenes/04 \u0E2D\u0E38\u0E17\u0E22\u0E32\u0E19\u0E41\u0E2B\u0E48\u0E07\u0E0A\u0E32\u0E15\u0E34\u0E40\u0E22\u0E25\u0E42\u0E25\u0E27\u0E4C\u0E2A\u0E42\u0E15\u0E19.unity"
+    guid: 4aed4996fad1bc044b750881e8d5ff3b
+  - enabled: 1
+    path: "Assets/Scenes/05 \u0E25\u0E38\u0E48\u0E21\u0E19\u0E49\u0E33\u0E41\u0E2D\u0E21\u0E30\u0E0B\u0E2D\u0E19.unity"
+    guid: e58e4a228d031584bba6aaefb1369534
+  - enabled: 1
+    path: "Assets/Scenes/06 \u0E40\u0E01\u0E32\u0E30\u0E21\u0E32\u0E14\u0E32\u0E01\u0E31\u0E2A\u0E01\u0E32\u0E23\u0E4C
+      (\u0E17\u0E35\u0E48\u0E23\u0E32\u0E1A\u0E25\u0E38\u0E48\u0E21 - \u0E40\u0E01\u0E32\u0E30).unity"
+    guid: 34dc3fe9bbfe9b0448370c0dbe09c647
+  - enabled: 1
+    path: "Assets/Scenes/07 \u0E40\u0E21\u0E42\u0E2A\u0E42\u0E1B\u0E40\u0E15\u0E40\u0E21\u0E35\u0E22.unity"
+    guid: de7a5dfe9362bd54cb5f3049105f7f44
+  - enabled: 1
+    path: "Assets/Scenes/08 \u0E40\u0E17\u0E37\u0E2D\u0E01\u0E40\u0E02\u0E32\u0E2B\u0E34\u0E21\u0E32\u0E25\u0E31\u0E22
+      (\u0E40\u0E17\u0E37\u0E2D\u0E01\u0E40\u0E02\u0E32).unity"
+    guid: 5175ff775af79404a9ca9f4efdf26b49
+  - enabled: 1
+    path: "Assets/Scenes/09 \u0E17\u0E35\u0E48\u0E25\u0E38\u0E48\u0E21\u0E41\u0E21\u0E48\u0E19\u0E49\u0E33\u0E42\u0E02\u0E07.unity"
+    guid: 3c380d0908bddc544b95491d48b4dcb7
+  - enabled: 1
+    path: "Assets/Scenes/10 \u0E19\u0E34\u0E27\u0E0B\u0E35\u0E41\u0E25\u0E19\u0E14\u0E4C.unity"
+    guid: f0dbe61d855d33e4e86ae2ccb68a68aa
+  - enabled: 1
+    path: "Assets/Scenes/11 \u0E2B\u0E21\u0E39\u0E48\u0E40\u0E01\u0E32\u0E30\u0E2D\u0E34\u0E19\u0E42\u0E14\u0E19\u0E35\u0E40\u0E0B\u0E35\u0E22.unity"
+    guid: 96747051710d85f448626d99b256e6ea
+  - enabled: 1
+    path: "Assets/Scenes/12 \u0E25\u0E38\u0E48\u0E21\u0E41\u0E21\u0E48\u0E19\u0E49\u0E33\u0E2E\u0E27\u0E07\u0E42\u0E2B.unity"
+    guid: 14308581e2ebf1f47b0dada17bdcc7ee
+  - enabled: 1
+    path: "Assets/Scenes/13 \u0E2B\u0E21\u0E39\u0E48\u0E40\u0E01\u0E32\u0E30\u0E1A\u0E23\u0E34\u0E15\u0E34\u0E0A
+      (\u0E40\u0E01\u0E32\u0E30).unity"
+    guid: dcd7366503aae6643b0d53074e594def
+  - enabled: 1
+    path: "Assets/Scenes/14 \u0E04\u0E32\u0E1A\u0E2A\u0E21\u0E38\u0E17\u0E23\u0E2A\u0E41\u0E01\u0E19\u0E14\u0E34\u0E40\u0E19\u0E40\u0E27\u0E35\u0E22.unity"
+    guid: ff7ccd7d2b829884896f88e45b0b6355
+  - enabled: 1
+    path: "Assets/Scenes/15 \u0E04\u0E32\u0E1A\u0E2A\u0E21\u0E38\u0E17\u0E23\u0E44\u0E2D\u0E1A\u0E35\u0E40\u0E23\u0E35\u0E22
+      - \u0E0A\u0E48\u0E2D\u0E07\u0E41\u0E04\u0E1A\u0E22\u0E34\u0E1A\u0E23\u0E2D\u0E25\u0E15\u0E32\u0E23\u0E4C.unity"
+    guid: d6e5d808c09bb3d41b3bbb89f8c94462
+  - enabled: 1
+    path: "Assets/Scenes/16 \u0E40\u0E17\u0E37\u0E2D\u0E01\u0E40\u0E02\u0E32\u0E41\u0E2D\u0E15\u0E25\u0E32\u0E2A.unity"
+    guid: b551118dddf909544b610962d21f1a77
+  - enabled: 1
+    path: "Assets/Scenes/17 \u0E17\u0E30\u0E40\u0E25\u0E17\u0E23\u0E32\u0E22\u0E0B\u0E32\u0E2E\u0E32\u0E23\u0E32.unity"
+    guid: 82f8225f032b3524f9a9288052bc0224
+  - enabled: 1
+    path: "Assets/Scenes/18 \u0E40\u0E17\u0E2D\u0E37\u0E01\u0E02\u0E40\u0E32\u0E04\u0E2D\u0E40\u0E04\u0E0B\u0E31\u0E2A.unity"
+    guid: e3c0986a982570d4c8ae84477f47f6e8
+  - enabled: 1
+    path: "Assets/Scenes/19 \u0E25\u0E38\u0E48\u0E21\u0E41\u0E21\u0E48\u0E19\u0E49\u0E33\u0E04\u0E2D\u0E07\u0E42\u0E01.unity"
+    guid: e7a17d10fa5936a43a01f5605d8d304f
+  - enabled: 1
+    path: "Assets/Scenes/20 \u0E17\u0E35\u0E48\u0E23\u0E32\u0E1A\u0E2A\u0E39\u0E07\u0E44\u0E0B\u0E1A\u0E35\u0E40\u0E23\u0E35\u0E22.unity"
+    guid: 4817f908e81afc94d94251f7d6e20838
+  - enabled: 1
+    path: "Assets/Scenes/21 \u0E40\u0E01\u0E23\u0E17\u0E41\u0E1A\u0E23\u0E34\u0E40\u0E2D\u0E2D\u0E23\u0E4C\u0E23\u0E35\u0E1F.unity"
+    guid: edd42ceaced9fc84ea656124d37b81b5
+  - enabled: 1
+    path: "Assets/Scenes/22 \u0E25\u0E38\u0E48\u0E21\u0E41\u0E21\u0E48\u0E19\u0E49\u0E33\u0E44\u0E19\u0E25\u0E4C.unity"
+    guid: 5870f16afab908c4ca85c62e9d3ffa06
+  - enabled: 1
+    path: Assets/Scenes/AR.unity
     guid: f587c79bd71744046a7c8ab6686cc5d9
   - enabled: 1
-    path: Assets/Scenes/Core2.unity
-    guid: be8d91e82591f6748b39bd7c25edb0d4
+    path: Assets/Scenes/Persistent.unity
+    guid: f8c6ca6efabc4494db62d025fbf56aa7
+  - enabled: 1
+    path: Assets/Scenes/MenuScreen.unity
+    guid: e6ec3d7e6280741418393b3634e6b3ee
   - enabled: 1
     path: Assets/Scenes/Game.unity
     guid: a40c998ae1a9d5342862b1e62b699978
-  - enabled: 1
-    path: Assets/Scenes/MenuScreen.unity
-    guid: be040925c4e561a4e918c1969a6e18bd
-  - enabled: 1
-    path: Assets/Scenes/Persistent.unity
-    guid: 1d4927a752fab4f81921cd3508d43034
-  - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 99c9720ab356a0642a771bea13969a05
-  - enabled: 1
-    path: Assets/Scenes/test.unity
-    guid: 57729e73a68c8d2499fa55cd3e4f1bdf
-  - enabled: 1
-    path: Assets/Scenes/Quiz01.unity
-    guid: 6e5ced45143bb2b42af8ff178fb2bdee
-  - enabled: 1
-    path: Assets/Scenes/Quiz02.unity
-    guid: 1f5e7848e55d66a4da9125edf807b2d0
   m_configObjects: {}

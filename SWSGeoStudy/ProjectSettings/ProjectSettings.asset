@@ -156,7 +156,7 @@ PlayerSettings:
     Standalone: com.newcomer.ProductName
   buildNumber: {}
   AndroidBundleVersionCode: 1
-  AndroidMinSdkVersion: 24
+  AndroidMinSdkVersion: 21
   AndroidTargetSdkVersion: 0
   AndroidPreferredInstallLocation: 1
   aotOptions: 
@@ -244,7 +244,7 @@ PlayerSettings:
   AndroidTargetArchitectures: 5
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
-  AndroidKeystoreName: D:/Projects/Working/SWSGeoStudy/SWSGeoStudy/newcomer.keystore
+  AndroidKeystoreName: D:/Projects/GitHub/SWSGeoStudy/SWSGeoStudy/newcomer.keystore
   AndroidKeyaliasName: newcomer
   AndroidBuildApkPerCpuArchitecture: 0
   AndroidTVCompatibility: 0
