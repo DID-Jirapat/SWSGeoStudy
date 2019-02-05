@@ -1,3 +1,3 @@
 # SWSGeoStudy
 
-sample 1
+Update 2/5/2019
