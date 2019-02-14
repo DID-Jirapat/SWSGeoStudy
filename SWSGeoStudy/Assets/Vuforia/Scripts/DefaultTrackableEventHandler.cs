@@ -8,7 +8,6 @@ Confidential and Proprietary - Protected under copyright and other laws.
 
 using UnityEngine;
 using Vuforia;
-using UnityEngine.UI;
 
 /// <summary>
 /// A custom handler that implements the ITrackableEventHandler interface.
@@ -18,13 +17,6 @@ using UnityEngine.UI;
 /// </summary>
 public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandler
 {
-
-    //show canvas on found
-    public GameObject UI01;
-    //count
-    private int count;
-    public Text countText;
-
     #region PROTECTED_MEMBER_VARIABLES
 
     protected TrackableBehaviour mTrackableBehaviour;
@@ -40,13 +32,6 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
         mTrackableBehaviour = GetComponent<TrackableBehaviour>();
         if (mTrackableBehaviour)
             mTrackableBehaviour.RegisterTrackableEventHandler(this);
-
-        //show canvas on found
-        UI01.SetActive(false);
-
-        //count
-        count = 0;
-        countText.text = "Count : " + count.ToString ();
     }
 
     protected virtual void OnDestroy()
@@ -113,13 +98,6 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
         // Enable canvas':
         foreach (var component in canvasComponents)
             component.enabled = true;
-
-        //show canvas on found
-        UI01.SetActive(true);
-
-        //count
-        count = count + 1;
-        countText.text = "Count : " + count.ToString();
     }
 
 
@@ -140,18 +118,7 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
         // Disable canvas':
         foreach (var component in canvasComponents)
             component.enabled = false;
-
-        //hide Ui
-        UI01.SetActive(false);
     }
-
-    /*
-    public void CloseUi()
-    {
-        //hide Ui
-        UI01.SetActive(false);
-    }
-    */
 
     #endregion // PROTECTED_METHODS
 }
