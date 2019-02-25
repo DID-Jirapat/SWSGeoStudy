@@ -9,6 +9,9 @@ public class HighScoreShow : MonoBehaviour {
     private DataController dataController;
     private PlayerProgress playerProgress;
     public Text highScoreDisplay;
+    private RoundData currentRoundData;
+    private QuestionData[] questionPool;
+    private float timeRemaining;
 
 
     private int playerScore;
@@ -16,17 +19,21 @@ public class HighScoreShow : MonoBehaviour {
     void Start()
     {
         dataController = FindObjectOfType<DataController>();
+        currentRoundData = dataController.GetCurrentRoundData();
+
+        EndRound();
     }
 
     void Update()
     {
-        EndRound();
+        //dataController = FindObjectOfType<DataController>();
     }
 
 
     public void EndRound()
     {
-        highScoreDisplay.text = playerScore.ToString();
+        
+        highScoreDisplay.text = dataController.GetHighestPlayerScore().ToString();
     }
 
 }
